@@ -3,7 +3,7 @@
 System.register(['app/plugins/sdk', 'moment', 'lodash', './css/clock-panel.css!'], function (_export, _context) {
   "use strict";
 
-  var PanelCtrl, moment, _, _createClass, panelDefaults, ClockCtrl;
+  var PanelCtrl, moment, _, _createClass, panelDefaults, NwGraphCtrl;
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -85,13 +85,13 @@ System.register(['app/plugins/sdk', 'moment', 'lodash', './css/clock-panel.css!'
         }
       };
 
-      _export('ClockCtrl', ClockCtrl = function (_PanelCtrl) {
-        _inherits(ClockCtrl, _PanelCtrl);
+      _export('NwGraphCtrl', NwGraphCtrl = function (_PanelCtrl) {
+        _inherits(NwGraphCtrl, _PanelCtrl);
 
-        function ClockCtrl($scope, $injector) {
-          _classCallCheck(this, ClockCtrl);
+        function NwGraphCtrl($scope, $injector) {
+          _classCallCheck(this, NwGraphCtrl);
 
-          var _this = _possibleConstructorReturn(this, (ClockCtrl.__proto__ || Object.getPrototypeOf(ClockCtrl)).call(this, $scope, $injector));
+          var _this = _possibleConstructorReturn(this, (NwGraphCtrl.__proto__ || Object.getPrototypeOf(NwGraphCtrl)).call(this, $scope, $injector));
 
           _.defaultsDeep(_this.panel, panelDefaults);
 
@@ -107,10 +107,10 @@ System.register(['app/plugins/sdk', 'moment', 'lodash', './css/clock-panel.css!'
           return _this;
         }
 
-        _createClass(ClockCtrl, [{
+        _createClass(NwGraphCtrl, [{
           key: 'onInitEditMode',
           value: function onInitEditMode() {
-            this.addEditorTab('Options', 'public/plugins/grafana-clock-panel/editor.html', 2);
+            this.addEditorTab('Options', 'public/plugins/sigma-graph-network-panel/editor.html', 2);
           }
         }, {
           key: 'onPanelTeardown',
@@ -220,13 +220,13 @@ System.register(['app/plugins/sdk', 'moment', 'lodash', './css/clock-panel.css!'
           }
         }]);
 
-        return ClockCtrl;
+        return NwGraphCtrl;
       }(PanelCtrl));
 
-      _export('ClockCtrl', ClockCtrl);
+      _export('NwGraphCtrl', NwGraphCtrl);
 
-      ClockCtrl.templateUrl = 'module.html';
+      NwGraphCtrl.templateUrl = 'module.html';
     }
   };
 });
-//# sourceMappingURL=clock_ctrl.js.map
+//# sourceMappingURL=nwgraph_ctrl.js.map

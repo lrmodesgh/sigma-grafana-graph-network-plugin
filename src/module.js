@@ -1,5 +1,5 @@
-import {ClockCtrl} from './clock_ctrl';
+import {NwGraphCtrl} from './nwgraph_ctrl.js';
 
 export {
-  ClockCtrl as PanelCtrl
+  NwGraphCtrl as PanelCtrl
 };

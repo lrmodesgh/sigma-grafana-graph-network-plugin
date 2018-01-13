@@ -26,7 +26,7 @@ const panelDefaults = {
   }
 };
 
-export class ClockCtrl extends PanelCtrl {
+export class NwGraphCtrl extends PanelCtrl {
   constructor($scope, $injector) {
     super($scope, $injector);
     _.defaultsDeep(this.panel, panelDefaults);
@@ -43,7 +43,7 @@ export class ClockCtrl extends PanelCtrl {
   }
 
   onInitEditMode() {
-    this.addEditorTab('Options', 'public/plugins/grafana-clock-panel/editor.html', 2);
+    this.addEditorTab('Options', 'public/plugins/sigma-graph-network-panel/editor.html', 2);
   }
 
   onPanelTeardown() {
@@ -145,4 +145,4 @@ export class ClockCtrl extends PanelCtrl {
   }
 }
 
-ClockCtrl.templateUrl = 'module.html';
+NwGraphCtrl.templateUrl = 'module.html';

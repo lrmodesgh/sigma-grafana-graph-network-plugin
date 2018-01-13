@@ -19,8 +19,8 @@
       {"name": "GPL License", "url": "https://github.com/lrmodesgh/sigma-grafana-graph-network-plugin/LICENSE"}
     ],
     "screenshots": [
-      {"name": "Showcase", "path": "src/img/screenshot-sigma_logo.png"},
-      {"name": "Options", "path": "src/img/screenshot-sigma_logo-options.png"}
+      {"name": "Showcase", "path": "src/img/screenshot-showcase.png"},
+      {"name": "Options", "path": "src/img/screenshot-network-options.png"}
     ],
     "version": "0.0.1",
     "updated": "2018-01-13"
