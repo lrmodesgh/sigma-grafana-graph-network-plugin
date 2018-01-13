@@ -11,10 +11,10 @@
     "graph",
     "network",
     "vertices",
-      "nodes",
-      "edges",
-      "links",
-      "panel"
+    "nodes",
+    "edges",
+    "links",
+    "panel"
   ],
   "author": "Cosmobird",
   "license": "GPL-3.0",

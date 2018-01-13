@@ -1,8 +1,6 @@
-## Clock Panel Plugin for Grafana
+## Sigmajs based Graph-Network Visualization Plugin for Grafana
 
-The Clock Panel can show the current time or a countdown and updates every second.
-
-Show the time in another office or show a countdown to an important event.
+The goal is to update the graph or network layout using Sigmajs and JSON as data input/stream
 
 ### Options
 
@@ -41,10 +39,6 @@ Show the time in another office or show a countdown to an important event.
 
 #### Changelog
 
-##### v0.0.8
+##### v0.0.1
 
-- Remove extraneous comma when 1 second left in the countdown. PR from @linkslice
-
-##### v0.0.9
-
-- Fixes bug with default properties not getting deep cloned [#20](https://github.com/grafana/clock-panel/issues/20)
+- Just now started learning, hacking to develop a grafana panel plugin

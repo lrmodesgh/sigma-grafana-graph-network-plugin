@@ -15,12 +15,12 @@
       "large": "src/img/sigma_logo.png"
     },
     "links": [
-      {"name": "Project site", "url": "https://github.com/grafana/clock-panel"},
-      {"name": "MIT License", "url": "https://github.com/grafana/clock-panel/blob/master/LICENSE"}
+      {"name": "Project site", "url": "https://github.com/grafana/sigma-graph-network"},
+      {"name": "GPL License", "url": "https://github.com/lrmodesgh/sigma-grafana-graph-network-plugin/LICENSE"}
     ],
     "screenshots": [
-      {"name": "Showcase", "path": "src/img/screenshot-showcase.png"},
-      {"name": "Options", "path": "src/img/screenshot-clock-options.png"}
+      {"name": "Showcase", "path": "src/img/screenshot-sigma_logo.png"},
+      {"name": "Options", "path": "src/img/screenshot-sigma_logo-options.png"}
     ],
     "version": "0.0.1",
     "updated": "2018-01-13"
